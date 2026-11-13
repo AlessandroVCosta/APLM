@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 
@@ -35,5 +36,7 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        Log.d("MainActivity", "Minha primeira mensagem de depuração.");
     }
 }
