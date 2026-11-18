@@ -1,0 +1,11 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'ao.co.isptec.aplm.quota.Quota'
+}
